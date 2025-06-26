@@ -1,0 +1,11 @@
+prefix=/Users/vishalmishra/MyProjects/Projects/TexQL/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/vishalmishra/MyProjects/Projects/TexQL/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
