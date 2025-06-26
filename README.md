@@ -1,2 +1,1 @@
 # TextQL
-Text to SQL
