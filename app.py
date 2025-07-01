@@ -7,7 +7,7 @@ import sqlite3
 import google.generativeai as genai
 
 # Configure Gemini API key
-genai.configure(api_key="AIzaSyAMJ7DDu9G_egzg-f0k-Zku2gj0ZOT74F0")
+genai.configure(api_key="AIzaSyAW3k6M8TOu_xG8It_Aks6Xo-yQxta5mzs")
 
 # model = genai.GenerativeModel("gemini-pro")
 # response = model.generate_content("Write a SQL query to get all students with marks > 90.")
